@@ -4,7 +4,6 @@ title: Lightning Talk
 info: A SatCamp lightning talk template. Slides auto-advance every 15s.
 class: text-center
 transition: fade
-autoPlay: 15000
 mdc: true
 ---
 
@@ -20,9 +19,8 @@ mdc: true
 
 <!--
 Presenter notes (press `p` for presenter mode):
-- 22 slides × 15s ≈ 5-minute lightning talk.
-- Press `a` to pause/resume auto-advance.
-- Press `o` for slide overview.
+- 22 slides × 15s ≈ 5-minute lightning talk. Auto-advance cannot be paused.
+- Press `o` for slide overview, `f` for fullscreen.
 -->
 
 ---
@@ -418,7 +416,7 @@ Presenter notes (press `p` for presenter mode):
 
 [satcamp.xyz](https://satcamp.xyz)  
 [Past lightning talks](https://satcamp.xyz/#sessions)  
-[This template on GitHub](https://github.com/satcamp/TEMPLATE-lightning)
+[This template on GitHub](https://github.com/satcamp/lightning-talk-slidev-TEMPLATE)
 
 <span class="muted">Replace with your own links</span>
 </div>
@@ -443,5 +441,5 @@ Presenter notes (press `p` for presenter mode):
   <line x1="380" y1="155" x2="415" y2="225" stroke="#09e57b" stroke-width="5"/>
 </svg>
 
-# 👏
+<div style="font-size:8rem;line-height:1;">👏</div>
 </div>
