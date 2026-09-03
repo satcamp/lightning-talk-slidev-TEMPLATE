@@ -17,7 +17,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Build slides
-        run: npm run build -- --base /lightning-talk-slidev-TEMPLATE/
+        run: npm run build -- --base ./
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
