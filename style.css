@@ -68,3 +68,35 @@ a {
   gap: 3rem;
   align-items: center;
 }
+
+.flow-diagram {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 2rem;
+}
+
+.flow-box {
+  padding: 1rem 2rem;
+  border: 2px solid #09e57b;
+  border-radius: 8px;
+  background: rgba(9, 229, 123, 0.08);
+  color: #fafafa;
+}
+
+.flow-arrow {
+  color: #09e57b;
+  font-size: 2.5rem;
+}
+
+@keyframes clap {
+  from { transform: rotate(-15deg) scale(1.0); }
+  to   { transform: rotate(15deg) scale(1.15); }
+}
+
+.clap-anim {
+  font-size: 8rem;
+  line-height: 1;
+  display: inline-block;
+  animation: clap 0.5s ease-in-out infinite alternate;
+}
