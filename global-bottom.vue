@@ -8,7 +8,7 @@ const SLIDE_MS = 15_000
 // in the URL, e.g. http://localhost:3030/?noauto — no file change needed.
 const autoAdvance = !new URLSearchParams(window.location.search).has('noauto')
 
-const { nextSlide, currentSlideNo, total } = useNav()
+const { currentSlideNo, total } = useNav()
 
 const overallScale = computed(() => currentSlideNo.value / total.value)
 
@@ -17,7 +17,10 @@ let timer: ReturnType<typeof setTimeout> | undefined
 function schedule() {
   clearTimeout(timer)
   if (!autoAdvance || currentSlideNo.value >= total.value) return
-  timer = setTimeout(() => nextSlide(), SLIDE_MS)
+  const next = currentSlideNo.value + 1
+  // Use window.location.hash directly to avoid Slidev v52 embedding BASE_URL
+  // into the hash fragment, which produces #/repo-name/2 (a 404 route).
+  timer = setTimeout(() => { window.location.hash = '/' + next }, SLIDE_MS)
 }
 
 onMounted(schedule)
