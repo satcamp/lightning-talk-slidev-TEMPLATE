@@ -239,7 +239,23 @@ Presenter notes (press `p` for presenter mode):
 
 ---
 
-<!-- Slide 12: [Hook] — template -->
+<!-- Slide 12: Personalize this deck — delete this slide when ready -->
+
+<div class="center-v">
+
+### Make it yours
+
+1. **Slide 1 title** — update the title and your name at the top of `slides.md`
+2. **Slides 13–18** — fill in **[Hook]**, **[Problem]**, **[Idea]**, **[Steps]**, **[Demo]** & **[Results]**
+3. **Links slide** — replace with your own references and URLs
+4. Delete slides you don't need · add more if your story requires them
+
+<p style="color: rgba(250,250,250,0.5); font-size: 0.85em;">Delete this slide when your deck is ready · <code>SLIDE_MS = 15_000</code> in <code>global-bottom.vue</code> controls the pace</p>
+</div>
+
+---
+
+<!-- Slide 13: [Hook] — template -->
 
 <div class="center-v">
 <svg viewBox="0 0 200 240" width="200" height="240" xmlns="http://www.w3.org/2000/svg">
