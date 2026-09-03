@@ -20,7 +20,7 @@ mdc: true
 
 <!--
 Presenter notes (press `p` for presenter mode):
-- 22 slides × 15s ≈ 5-minute lightning talk. Auto-advance cannot be paused.
+- 20 slides × 15s = 5-minute lightning talk (delete the "Make it yours" slide before presenting). Auto-advance cannot be paused.
 - Press `o` for slide overview, `f` for fullscreen.
 -->
 
@@ -143,11 +143,11 @@ Presenter notes (press `p` for presenter mode):
 
 ---
 
-<!-- Slide 7: 22 × 15s = 5 min -->
+<!-- Slide 7: 20 × 15s = 5 min -->
 
 <div class="center-v">
 <div class="formula">
-<span class="highlight">22</span> slides × <span class="highlight">15</span> seconds = <strong>5 minutes</strong>
+<span class="highlight">20</span> slides × <span class="highlight">15</span> seconds = <strong>5 minutes</strong>
 </div>
 </div>
 
@@ -239,23 +239,7 @@ Presenter notes (press `p` for presenter mode):
 
 ---
 
-<!-- Slide 12: Personalize this deck — delete this slide when ready -->
-
-<div class="center-v">
-
-### Make it yours
-
-1. **Slide 1 title** — update the title and your name at the top of `slides.md`
-2. **Slides 13–18** — fill in **[Hook]**, **[Problem]**, **[Idea]**, **[Steps]**, **[Demo]** & **[Results]**
-3. **Links slide** — replace with your own references and URLs
-4. Delete slides you don't need · add more if your story requires them
-
-<p style="color: rgba(250,250,250,0.5); font-size: 0.85em;">Delete this slide when your deck is ready · <code>SLIDE_MS = 15_000</code> in <code>global-bottom.vue</code> controls the pace</p>
-</div>
-
----
-
-<!-- Slide 13: [Hook] — template -->
+<!-- Slide 12: [Hook] — template -->
 
 <div class="center-v">
 <svg viewBox="0 0 200 240" width="200" height="240" xmlns="http://www.w3.org/2000/svg">
@@ -383,39 +367,7 @@ Presenter notes (press `p` for presenter mode):
 
 ---
 
-<!-- Slide 18: Past talks -->
-
-<div class="center-v">
-<svg viewBox="0 0 200 240" width="200" height="240" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="100" cy="35" r="28" stroke="#09e57b" stroke-width="5" fill="none"/>
-  <line x1="100" y1="63" x2="100" y2="155" stroke="#09e57b" stroke-width="5"/>
-  <line x1="100" y1="95" x2="50" y2="125" stroke="#09e57b" stroke-width="5"/>
-  <line x1="100" y1="95" x2="150" y2="125" stroke="#09e57b" stroke-width="5"/>
-  <line x1="100" y1="155" x2="65" y2="220" stroke="#09e57b" stroke-width="5"/>
-  <line x1="100" y1="155" x2="135" y2="220" stroke="#09e57b" stroke-width="5"/>
-</svg>
-
-### Past talks → [satcamp.xyz](https://satcamp.xyz)
-</div>
-
----
-
-<!-- Slide 19: Get involved -->
-
-<div class="center-v">
-<svg viewBox="0 0 300 160" width="300" height="160" xmlns="http://www.w3.org/2000/svg">
-  <path d="M 60 80 Q 90 40 150 80 Q 210 120 240 80" stroke="#09e57b" stroke-width="6" fill="none" stroke-linecap="round"/>
-  <circle cx="60" cy="80" r="12" fill="#09e57b" opacity="0.5"/>
-  <circle cx="240" cy="80" r="12" fill="#09e57b" opacity="0.5"/>
-  <circle cx="150" cy="80" r="16" fill="#09e57b"/>
-</svg>
-
-### Join us — [satcamp.xyz](https://satcamp.xyz)
-</div>
-
----
-
-<!-- Slide 20: Use this template -->
+<!-- Slide 18: Use this template -->
 
 <div class="center-v">
 <svg viewBox="0 0 300 160" width="300" height="160" xmlns="http://www.w3.org/2000/svg">
@@ -428,12 +380,28 @@ Presenter notes (press `p` for presenter mode):
   <path d="M 200 85 Q 200 112 150 112" stroke="#09e57b" stroke-width="4" fill="none"/>
 </svg>
 
-### [Create a repository from this template](https://github.com/new?template_name=lightning-talk-slidev-TEMPLATE&template_owner=satcamp)
+<a href="https://github.com/new?template_name=lightning-talk-slidev-TEMPLATE&template_owner=satcamp" style="color:#09e57b; text-decoration:underline; font-size:1.6rem;">Create a repository from this template</a>
 </div>
 
 ---
 
-<!-- Slide 21: Resources -->
+<!-- Slide 19: Make it yours — delete this slide when ready -->
+
+<div class="center-v">
+
+### Make it yours
+
+1. **Slide 1 title** — update the title and your name at the top of `slides.md`
+2. **Slides 12–17** — fill in **[Hook]**, **[Problem]**, **[Idea]**, **[Steps]**, **[Demo]** & **[Results]**
+3. **Slide 20 (Links)** — replace with your own references and URLs
+4. Delete slides you don't need · add more if your story requires them
+
+<p style="color: rgba(250,250,250,0.5); font-size: 0.85em;">Delete this slide when your deck is ready · <code>SLIDE_MS = 15_000</code> in <code>global-bottom.vue</code> controls the pace</p>
+</div>
+
+---
+
+<!-- Slide 20: Resources -->
 
 <div class="center-v">
 
@@ -448,7 +416,7 @@ Presenter notes (press `p` for presenter mode):
 
 ---
 
-<!-- Slide 22: Please clap! -->
+<!-- Slide 21: Please clap! -->
 
 <div class="center-v">
 <svg viewBox="0 0 500 260" width="500" height="260" xmlns="http://www.w3.org/2000/svg">
