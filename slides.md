@@ -4,6 +4,7 @@ title: Lightning Talk
 info: A SatCamp lightning talk template. Slides auto-advance every 15s.
 class: text-center
 transition: fade
+routerMode: hash
 mdc: true
 ---
 
