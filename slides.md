@@ -6,6 +6,7 @@ class: text-center
 transition: fade
 routerMode: hash
 mdc: true
+id: slide-title
 ---
 
 <!-- Slide 1: Title -->
@@ -25,6 +26,8 @@ Presenter notes (press `p` for presenter mode):
 -->
 
 ---
+id: slide-1
+---
 
 <!-- Slide 2: What is SatCamp? -->
 
@@ -42,6 +45,8 @@ Presenter notes (press `p` for presenter mode):
 ### Satellite **+** Camp
 </div>
 
+---
+id: slide-2
 ---
 
 <!-- Slide 3: Community -->
@@ -88,6 +93,8 @@ Presenter notes (press `p` for presenter mode):
 </div>
 
 ---
+id: slide-3
+---
 
 <!-- Slide 4: Where we meet -->
 
@@ -105,6 +112,8 @@ Presenter notes (press `p` for presenter mode):
 ### Colorado, USA
 </div>
 
+---
+id: slide-4
 ---
 
 <!-- Slide 5: Two session types -->
@@ -125,6 +134,8 @@ Presenter notes (press `p` for presenter mode):
 </div>
 
 ---
+id: slide-5
+---
 
 <!-- Slide 6: Lightning Talks — figure at podium -->
 
@@ -142,6 +153,8 @@ Presenter notes (press `p` for presenter mode):
 </div>
 
 ---
+id: slide-6
+---
 
 <!-- Slide 7: 20 × 15s = 5 min -->
 
@@ -151,6 +164,8 @@ Presenter notes (press `p` for presenter mode):
 </div>
 </div>
 
+---
+id: slide-7
 ---
 
 <!-- Slide 8: One idea per slide -->
@@ -171,6 +186,8 @@ Presenter notes (press `p` for presenter mode):
 ### One slide. One idea.
 </div>
 
+---
+id: slide-8
 ---
 
 <!-- Slide 9: Show & Tell -->
@@ -202,6 +219,8 @@ Presenter notes (press `p` for presenter mode):
 </div>
 
 ---
+id: slide-9
+---
 
 <!-- Slide 10: How Show & Tell works -->
 
@@ -215,6 +234,8 @@ Presenter notes (press `p` for presenter mode):
 </div>
 </div>
 
+---
+id: slide-10
 ---
 
 <!-- Slide 11: Why share? -->
@@ -238,24 +259,21 @@ Presenter notes (press `p` for presenter mode):
 </div>
 
 ---
+id: slide-11
+---
 
 <!-- Slide 12: [Hook] — template -->
 
 <div class="center-v">
-<svg viewBox="0 0 200 240" width="200" height="240" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="100" cy="35" r="28" stroke="#09e57b" stroke-width="5" fill="none"/>
-  <line x1="100" y1="63" x2="100" y2="155" stroke="#09e57b" stroke-width="5"/>
-  <line x1="100" y1="95" x2="50" y2="125" stroke="#09e57b" stroke-width="5"/>
-  <line x1="100" y1="95" x2="150" y2="125" stroke="#09e57b" stroke-width="5"/>
-  <line x1="100" y1="155" x2="65" y2="220" stroke="#09e57b" stroke-width="5"/>
-  <line x1="100" y1="155" x2="135" y2="220" stroke="#09e57b" stroke-width="5"/>
-</svg>
+<img src="https://satcamp.xyz/assets/logistics-BLk3ooeQ.jpg" style="max-height: 420px; border-radius: 8px;">
 
 ### **[Your hook here]**
 
 <span class="muted">Replace this slide with your opening line</span>
 </div>
 
+---
+id: slide-12
 ---
 
 <!-- Slide 13: [Problem] — template -->
@@ -278,6 +296,8 @@ Presenter notes (press `p` for presenter mode):
 </div>
 
 ---
+id: slide-13
+---
 
 <!-- Slide 14: [Big Idea] — template -->
 
@@ -296,6 +316,8 @@ Presenter notes (press `p` for presenter mode):
 <span class="muted">Your core insight in one sentence</span>
 </div>
 
+---
+id: slide-14
 ---
 
 <!-- Slide 15: [How It Works] — template -->
@@ -323,6 +345,8 @@ Presenter notes (press `p` for presenter mode):
 </div>
 
 ---
+id: slide-15
+---
 
 <!-- Slide 16: [Demo] — template -->
 
@@ -345,6 +369,8 @@ Presenter notes (press `p` for presenter mode):
 </div>
 
 ---
+id: slide-16
+---
 
 <!-- Slide 17: [Results] — template -->
 
@@ -366,6 +392,8 @@ Presenter notes (press `p` for presenter mode):
 </div>
 
 ---
+id: slide-17
+---
 
 <!-- Slide 18: Use this template -->
 
@@ -384,6 +412,8 @@ Presenter notes (press `p` for presenter mode):
 </div>
 
 ---
+id: slide-18
+---
 
 <!-- Slide 19: Make it yours — delete this slide when ready -->
 
@@ -400,6 +430,8 @@ Presenter notes (press `p` for presenter mode):
 </div>
 
 ---
+id: slide-19
+---
 
 <!-- Slide 20: Resources -->
 
@@ -414,6 +446,21 @@ Presenter notes (press `p` for presenter mode):
 <span class="muted">Replace with your own links</span>
 </div>
 
+---
+id: slide-20
+---
+
+<!-- Slide 20: Extra slide — delete or replace -->
+
+<div class="center-v">
+
+### **[Add your 20th slide here]**
+
+<span class="muted">Another result, a next step, or a closing thought</span>
+</div>
+
+---
+id: slide-applause
 ---
 
 <!-- Slide 21: Please clap! -->
