@@ -37,8 +37,4 @@ Open http://localhost:3030 in your browser. Append `?noauto` to the URL to pause
 | What | Where |
 |---|---|
 | Talk title and author | Top of `slides.md` (frontmatter `title:` field and first slide) |
-| Your 6 content slides | Slides 12–17 — replace `[Hook]`, `[Problem]`, `[Idea]`, `[Steps]`, `[Demo]`, `[Results]` |
-| Links slide | Slide 20 — replace the satcamp.xyz links with your own |
-| Slide timing | `SLIDE_MS = 15_000` in `global-bottom.vue` (value in milliseconds) |
-
-**Before presenting:** delete slide 19 ("Make it yours") so the deck has exactly 20 slides.
+| Your 20 content slides | Slides 12–17 — replace `[Hook]`, `[Problem]`, `[Idea]`, `[Steps]`, `[Demo]`, `[Results]` |
